@@ -14,6 +14,28 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 - Create Git Repo on Github
     - github允许每个account有一个repository作为github page repo，repo的名字必须符合 **\<your username\>.github.io** 的 format. 比如 jiajiewu1988.github.io
 - 安装hexo
-    - 首先要安装nodejs和npm，hexo由npm来管理
+    - 首先要安装 **nodejs** 和 **npm**，hexo 由 npm 来管理
     - 安装hexo package: `npm install hexo-cli -g`
-    
+- 创建hexo project
+    - use command: `hexo init <your_project_name>`
+- 设置 Deployment to Github
+    - 安装 hexo 的 git plugin:
+        - `npm install hexo-deployer-git --save`
+    - 修改 hexo config - _config.yml:
+        - ```yml
+          deploy:
+            type: git
+            repo: <github repo link>
+            branch: <optional>
+            message: <optional>
+          ```
+        - **type** 和 **repo** 是必须的。
+        - 如果使用github, branch的值为空，那hexo会自动detect branch.
+        - message的默认值是：`Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}`
+- Setup SSH Key with Github
+    - 为了方便 deploy, 建议使用 ssh 方式来同步 git repo
+    - Follow 以下链接来 setup ssh key
+        - [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+        - [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+
