@@ -31,7 +31,7 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
           ```
         - **type** 和 **repo** 是必须的。
         - 如果使用github, branch的值为空，那hexo会自动detect branch.
-        - message的默认值是 `Site updated \{\{ now\('YYYY-MM-DD HH:mm:ss'\) \}\}`
+        - message的默认值是 `Site updated {{ now\('YYYY-MM-DD HH:mm:ss'\) }}`
 - Setup SSH Key with Github
     - 为了方便 deploy, 建议使用 ssh 方式来同步 git repo
     - Follow 以下链接来 setup ssh key
@@ -40,3 +40,5 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 
 
 # 更换 hexo theme
+
+# 管理 media files
