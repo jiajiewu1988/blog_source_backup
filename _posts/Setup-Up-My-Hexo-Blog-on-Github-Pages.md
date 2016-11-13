@@ -42,10 +42,8 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 # 更换 hexo theme
 
 - 找到想要更换的 theme，**git clone** 到hexo下的theme directory中
-<br />
 `git clone https://github.com/hexo-theme-again.git themes/again`
 - 到hexo主目录下的_config.yml下修改**theme**的值
-<br />
 `theme: again`
 
 # 管理 media files
