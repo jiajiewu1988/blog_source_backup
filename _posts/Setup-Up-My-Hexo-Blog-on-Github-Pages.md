@@ -12,7 +12,7 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 # Blog Initiation
 
 - Create Git Repo on Github
-    - github允许每个account有一个repository作为github page repo，repo的名字必须符合 **\<your username\>.github.io** 的 format. 比如 jiajiewu1988.github.io
+    - github允许每个account有一个repository作为github page repo，repo的名字必须符合 **<your username>.github.io** 的 format. 比如 jiajiewu1988.github.io
 - 安装hexo
     - 首先要安装 **nodejs** 和 **npm**，hexo 由 npm 来管理
     - 安装hexo package: `npm install hexo-cli -g`
@@ -47,3 +47,5 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 `theme: again`
 
 # 管理 media files
+
+[Hexo Official Assets Folder Doc](https://hexo.io/docs/asset-folders.html)
