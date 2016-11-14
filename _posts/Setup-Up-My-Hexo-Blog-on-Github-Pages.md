@@ -49,3 +49,8 @@ Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以�
 # 管理 media files
 
 [Hexo Official Assets Folder Doc](https://hexo.io/docs/asset-folders.html)
+比较了一下各种存Assets的方法，还是觉得用 Post Assets Folder 会管理得比较清晰一点。在 Markdown 中也可以用 relative path 来引用 Assets Files.
+<br />
+
+设置方法也很简单，在 _config.yml 中
+- `post_asset_folder: true`
