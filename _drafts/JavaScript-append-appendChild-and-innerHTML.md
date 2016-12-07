@@ -43,4 +43,4 @@ The **Element.innerHTML** property sets or gets the HTML syntax describing the e
 
 <span style="background-color:#ea8b54">*innerHTML* is different from *appendChild()*. Everytime, when the *innerHTML* is changed, browser does a complete rebuild of the content of the target element.</span>
 
-<span style="background-color:#0000bb">abc</span>
+<span style="background-color:#54bbea">abc</span>
