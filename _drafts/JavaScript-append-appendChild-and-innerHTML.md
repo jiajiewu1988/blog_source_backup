@@ -41,6 +41,6 @@ The **Element.innerHTML** property sets or gets the HTML syntax describing the e
 ## append() V.S. appendChild() V.S. innerHTML
 *append()* is a extension of *appendChild()* as we can see from *append()*'s source code. *append()* is more flexible because it can take either html string and DOM element. 
 
-<span style="background-color:#bb0000">*innerHTML* is different from *appendChild()*. Everytime, when the *innerHTML* is changed, browser does a complete rebuild of the content of the target element.</span>
+<span style="background-color:#ea8b54">*innerHTML* is different from *appendChild()*. Everytime, when the *innerHTML* is changed, browser does a complete rebuild of the content of the target element.</span>
 
 <span style="background-color:#0000bb">abc</span>
