@@ -45,4 +45,10 @@ The **Element.innerHTML** property sets or gets the HTML syntax describing the e
 
 <span style="background-color:#54bbea">*appendChild()* does not cause a complete rebuild of the DOM.</span>
 
+Resources:
+- [http://stackoverflow.com/a/2305677/1155155](http://stackoverflow.com/a/2305677/1155155)
+
 ## Performance Comparasion
+[append, appendChild, and innerHTML benchmark](http://jsben.ch/#/nMElN)
+
+
