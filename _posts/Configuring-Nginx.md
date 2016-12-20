@@ -10,4 +10,4 @@ categories:
 
 | Value Type | Format | Example of a value |
 | ---------- | ------ | ------------------ |
-| Flag | [on\|off] | on, off |
+| Flag       | [on&#124off] | on, off      |
