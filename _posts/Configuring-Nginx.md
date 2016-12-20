@@ -3,9 +3,9 @@ title: Configuring Nginx
 date: 2016-12-19 16:32:48
 tags:
   - Nginx
-  - Web
+  - Tech
 categories:
-    - Tech
+    - Web
 ---
 
 | Value Type | Format | Example of a value |
