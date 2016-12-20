@@ -3,11 +3,10 @@ title: Configuring Nginx
 date: 2016-12-19 16:32:48
 tags:
   - Nginx
-  - Tech
 categories:
     - Web
 ---
 
 | Value Type | Format | Example of a value |
 | ---------- | ------ | ------------------ |
-| Flag       | [on&#124off] | on, off      |
+| Flag       | [on&#124;off] | on, off      |
