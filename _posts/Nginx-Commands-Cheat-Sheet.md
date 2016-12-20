@@ -5,5 +5,4 @@ tags:
   - Nginx
 categories:
   - Web
-  - Tech
 ---

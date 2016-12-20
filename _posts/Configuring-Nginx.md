@@ -5,7 +5,7 @@ tags:
   - Nginx
 categories:
   - Web
-  - Tech
+    - Tech
 ---
 
 | Value Type | Format | Example of a value |
