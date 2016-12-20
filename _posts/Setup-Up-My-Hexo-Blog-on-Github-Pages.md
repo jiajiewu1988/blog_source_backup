@@ -2,9 +2,9 @@
 title: Setup Up My Hexo Blog on Github Pages
 date: 2016-11-11 14:55:33
 tags:
-- hexo
+  - hexo
 categories:
-- Tech
+  - Tech
 ---
 
 Github Pages给用户提供了很方便的Blog Hosting的解决方案，可以非常方便的用诸如hexo, jekyll等的 Static Page CRM来管理Blog。
